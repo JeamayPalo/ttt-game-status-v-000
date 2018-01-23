@@ -41,11 +41,5 @@ def winner(board)
   elsif board[won?(board).first] == "X"
       return "X"
     else "O"
-  if won?(board).first != "X" || "O"
-    return nil
-  elsif won?(board).first == "X"
-      return "X"
-    else won?(board).first == "O"
-      return "O"
   end
 end
